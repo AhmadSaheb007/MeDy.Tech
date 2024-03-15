@@ -1,4 +1,5 @@
 import "../pages/Home.css";
+import ImageButton from './ImageButton';
 
 
 interface Props{
@@ -13,8 +14,9 @@ const CareSection = ({title, description, img}: Props) => {
       <div className="container">
         <div className="row py-5">
           <div className="offset-1 col-lg-5 my-auto text-end">
-          <p className="fs-1">{title}</p>
-            {description}
+            <p className="fs-1">{title}</p>
+            <p>{description}</p>
+            <ImageButton />
           </div>
           <div className="offset-1 col-lg-5 text-end">
             <img className="w-100 img-fluid rounded-2" src= {img} alt="" />
