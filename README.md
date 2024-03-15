@@ -1,6 +1,6 @@
 # Medy.Tech
 
-### Dependences to install
+### Dependences to install [Copy and Paste into VS code terminal]
 npm install bootstrap@5.2.3 <br>
 npm install react-icons --save <br>
 
