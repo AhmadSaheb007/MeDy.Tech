@@ -1,0 +1,18 @@
+
+.banner{
+    background: url(/src/assets/Home_Banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+
+}
+
+.hero-heading{
+    font-size: 4em;
+}
+
+.hero{
+    padding-top: 15rem !important;
+}

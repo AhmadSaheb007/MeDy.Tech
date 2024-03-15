@@ -1,18 +1,12 @@
-import './App.css'
-import { AiFillAmazonCircle } from "react-icons/ai";
+import "./App.css";
+import Home from './components/pages/Home';
 
 function App() {
-
   return (
     <>
-      <h1 >Hello Abeer</h1>
-      <h1 >Hello Abeer</h1>
-      <h1 >Hello Abeer</h1>
-      <h1 >Hello dev</h1>
-
-
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
