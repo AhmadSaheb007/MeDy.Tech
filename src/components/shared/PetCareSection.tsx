@@ -1,4 +1,5 @@
 import "../pages/Home.css";
+import ImageButton from './ImageButton';
 
 
 interface Props{
@@ -17,8 +18,9 @@ const PetCareSection = ({title, img, description}: Props) => {
           </div>
 
           <div className="col-lg-5 my-auto">
-          <p className="fs-1">{title}</p>
-            {description}
+            <p className="fs-1">{title}</p>
+            <p>{description}</p>
+            <ImageButton />
           </div>
           
         </div>
