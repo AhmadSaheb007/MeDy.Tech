@@ -1,7 +1,7 @@
 
 import {z} from 'zod';
 import { Link } from 'react-router-dom';
-
+import "./Home.css";
 z.object({
   name: z.string().min(3),
 })
@@ -15,7 +15,7 @@ interface Props{
 
 const SignUp = ({title}: Props) => {
   return (
-    <div className='banner'>
+    <div className='banner m'>
       <div className="container">
         <div className="row d-flex justify-content-center pt-5">
           <div className="col-lg-6 text-center mt-5 py-4 border border-primary border-2 rounded-3 bg-blur">
