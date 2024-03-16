@@ -6,6 +6,7 @@ npm install react-icons --save <br>
 npm install -D tailwindcss <br>
 npx tailwindcss init <br>
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch <br>
-
+npm i -D react-router-dom@latest <br>
+npm i zod <br>
 ### Dependences to add in code [Not mandatory]
 import 'bootstrap/dist/css/bootstrap.min.css'; => main.tsx

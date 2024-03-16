@@ -1,6 +1,7 @@
 import CareSection from "../shared/CareSection";
 import "./Home.css";
 import PetCareSection from './../shared/PetCareSection';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -15,8 +16,10 @@ const Home = () => {
                   <span className="fs-4">A Perfect Platform For Your Close One</span>
               </p>
               <div className="py-4">
-                <button className="btn btn-success border border-2 text-light px-5 py-2 me-2"> Log in </button>
-                <button className="btn btn-primary border border-2  text-light px-5 py-2"> Sign Up </button>
+                <Link to='/UserAs' ><button className="btn btn-success border border-2 text-light px-5 py-2 me-2"> Log in </button></Link>
+                <Link to='/UserAs' ><button className="btn btn-primary border border-2  text-light px-5 py-2"> Sign Up </button></Link>
+
+                
               </div>
             </div>
           </div>

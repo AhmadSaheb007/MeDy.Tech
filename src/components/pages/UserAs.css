@@ -1,0 +1,44 @@
+.user-container{
+    padding-top: 20rem;
+}
+
+:root{
+    --bg-primary-color: aliceblue;
+    --text-primary-color: rgb(180, 220, 243);
+    --text-secondary-color: rgb(90, 122, 138);
+}
+
+.text-secondary-color{
+    color: var(--text-secondary-color);
+}
+
+.user-as-btn{
+    font-size: 4em;
+    width: 15rem;
+    color: var(--text-primary-color);
+    background-color: transparent;
+    border: 3px solid var(--text-primary-color);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.user-as-btn:hover{
+    background-color: var(--text-primary-color);
+    color: var(--bg-primary-color);
+    transform: scale(1.1);
+
+}
+
+.submit-btn{
+    color: var(--text-secondary-color);
+    background-color: transparent;
+    border: 3px solid var(--text-primary-color);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.submit-btn:hover{
+    background-color: var(--text-primary-color);
+    transform: scale(1.1);
+
+}
