@@ -14,7 +14,7 @@ const PetCareSection = ({title, img, description}: Props) => {
       <div className="container">
         <div className="row py-5">
           <div className="col-lg-6">
-            <img className="w-75 img-fluid rounded-2" src={img} alt="" />
+            <img className="w-100 img-fluid rounded-2" src={img} alt="" />
           </div>
 
           <div className="col-lg-5 my-auto">

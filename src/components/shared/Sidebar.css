@@ -1,0 +1,5 @@
+.nav-animation:hover{
+    background-color: var(--text-primary-color) !important;
+    color: black !important;
+    transform: scale(1.1);
+}
