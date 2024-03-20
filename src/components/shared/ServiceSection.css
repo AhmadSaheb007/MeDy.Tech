@@ -1,0 +1,19 @@
+.service-icon {
+
+    font-size: 6em;
+    color: var(--text-secondary-color);
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.service-card{
+    transition: 0.5s;
+}
+
+
+.service-card:hover{
+    background-color: #2c313c;
+    color: var(--bg-primary-color);
+
+}

@@ -37,37 +37,67 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 col-md-11 pt-5 family-care">
-              <CareSection
-                title="Care Your Family"
-                img="/src/assets/oldPeople.avif"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            sunt temporibus enim. Nesciunt aut laborum rerum mollitia
-            laudantium. Praesentium sint exercitationem accusantium error
-            molestias libero volussimus veritatis itaque, repudiandae
-            pariatur? Sunt cupiditate labore repellendus debitis porro
-            voluptatibus, magnam nostrum omnis tenetur excepturi ex eum repellat
-            alias facilis eius officia ut! Vero excepturi officiis iure sint
-            voluptatibus mollitia optio, quasi obcaecati voluptates."
-              />
+        <div className="">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 col-md-11 pt-5 family-care">
+                <CareSection
+                  title="Care Your Family"
+                  img="/src/assets/oldPeople.avif"
+                  description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              sunt temporibus enim. Nesciunt aut laborum rerum mollitia
+              laudantium. Praesentium sint exercitationem accusantium error
+              molestias libero volussimus veritatis itaque, repudiandae
+              pariatur? Sunt cupiditate labore repellendus debitis porro
+              voluptatibus, magnam nostrum omnis tenetur excepturi ex eum repellat
+              alias facilis eius officia ut! Vero excepturi officiis iure sint
+              voluptatibus mollitia optio, quasi obcaecati voluptates."
+                />
 
-              <PetCareSection
-                title="Care Your Pet"
-                img="/src/assets/pets.jpg"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit.  
-            libero volussimus veritatis itaque, repudiandae
-            pariatur? Sunt cupiditate labore repellendus debitis porro
-            voluptatibus, magnam nostrum omnis tenetur excepturi ex eum repellat
-            alias facilis eius officia ut! Vero excepturi Quaerat"
-              />
+                <PetCareSection
+                  title="Care Your Pet"
+                  img="/src/assets/pets.jpg"
+                  description="Lorem ipsum dolor sit amet consectetur adipisicing elit.  
+              libero volussimus veritatis itaque, repudiandae
+              pariatur? Sunt cupiditate labore repellendus debitis porro
+              voluptatibus, magnam nostrum omnis tenetur excepturi ex eum repellat
+              alias facilis eius officia ut! Vero excepturi Quaerat"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      {/* <ServiceSection/> */}
+        <ServiceSection />
+
+        <div className="">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 col-md-11 pt-5 family-care">
+                <CareSection
+                  title="Model Working Mechanism"
+                  img="/src/assets/AIModel.jpg"
+                  description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              sunt temporibus enim. Nent exercitationem accusantium error
+              molestias libero volussim omnis tenetur excepturi ex eum repellat
+              alias facilis eius officia ut! Vero excepturi officiis iure sint
+              voluptatibus mollitia optio, quasi obcaecati voluptates."
+                />
+
+                <PetCareSection
+                  title="Why Trust Us"
+                  img="/src/assets/trust.jpg"
+                  description="Lorem ipsum dolor sit amet consectetur adipisicing elit.  
+              libero volussimus veritatis itaque, repudiandae
+              pariatur? Sunt cupiditate labore repellendus debitis porro
+              voluptatibus, magnam nostrum omnis tenetur excepturi ex eum repellat
+              alias facilis eius officia ut! Vero excepturi Quaerat"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
     </div>
   );
 };
